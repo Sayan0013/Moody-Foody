@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owners</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header2">
+    <header>
+        <a href="res.html" target="blank"><img src="logo.png"></a>
+        <div class="menu"  id="menu">
+            <div class="btn">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+            </div>
+
+            <a href="#">HOME</a>
+            <a href="#about">ABOUT US</a>
+            <a href="#speciality">MENU</a>
+            <a href="#testimonials">REVIEWS</a>
+            <a href="#order">ORDER</a>
+            <a href="#contact">CONTACT US</a>
+                <a href="#">CONTACT US</a>
+                
+            </div>
+            <div class="btn">
+                <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+            </div>
+    
+        </header>
+
+        <h1>Owners...</h1>
+    </section>
+
+
+    <!----------caoches content------->
+
+    <section class="owners">
+       <h1>Our Owners are...</h1>
+        <div class="row">
+            <div class="owners-col">
+                <img src="sayan.jpeg">
+                <h3>Sayan Mondal</h3>
+                <h2>Founder</h2>
+
+                <div class="icons">
+                    <a href="https://www.facebook.com/profile.php?id=100024627801500" target="blank">
+                        <i class="fab fa-2x fa-facebook"></i>
+                     </a>
+                    <a href="https://www.instagram.com/_joker_0013/" target="blank">
+                        <i class="fab fa-2x fa-instagram"></i>
+                     </a>
+                    <a href="https://www.linkedin.com/in/sayan-mondal-9b5a75213/" target="blank">
+                        <i class="fab fa-2x fa-linkedin"></i>
+                     </a>
+                 </div>
+
+
+            </div>
+            <div class="owners-col">
+                <img src="raneet.jpg" alt="">
+                <h3>Raneet Roy</h3>
+                <h2>Co-Founder</h2>
+
+                <div class="icons">
+                    <a href="blank" target="blank">
+                        <i class="fab fa-2x fa-facebook"></i>
+                     </a>
+                    <a href="https://www.instagram.com/raneet_roy_17/" target="blank">
+                        <i class="fab fa-2x fa-instagram"></i>
+                     </a>
+                    <a href="https://www.linkedin.com/in/raneet-roy/" target="blank">
+                        <i class="fab fa-2x fa-linkedin"></i>
+                     </a>
+                 </div>
+
+            </div>
+            <div class="owners-col">
+                <img src="rachita.jpeg" alt="">
+                <h3>Rachita Hati</h3>
+                <h2>PR-Head</h2>
+
+                <div class="icons">
+                    <a href="https://www.facebook.com/rachitahati04" target="blank">
+                        <i class="fab fa-2x fa-facebook"></i>
+                     </a>
+                    <a href="https://www.instagram.com/rachusings/?igshid=YmMyMTA2M2Y%3D" target="blank">
+                        <i class="fab fa-2x fa-instagram"></i>
+                     </a>
+                    <a href="blank" target="blank">
+                        <i class="fab fa-2x fa-linkedin"></i>
+                     </a>
+                 </div>
+
+            </div>
+
+            <div class="owners-col">
+                <img src="arunava.jpeg" alt="">
+                <h3>Arunava Saha</h3>
+                <h2>Managing Head</h2>
+
+                <div class="icons">
+                    <a href="https://www.facebook.com/arunabha.saha.963" target="blank">
+                        <i class="fab fa-2x fa-facebook"></i>
+                     </a>
+                    <a href="https://www.instagram.com/_a_r_u_saha/" target="blank">
+                        <i class="fab fa-2x fa-instagram"></i>
+                     </a>
+                    <a href="https://www.linkedin.com/in/arunabha-saha-97180b20a/" target="blank">
+                        <i class="fab fa-2x fa-linkedin"></i>
+                     </a>
+                 </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+   
+    
+
+    <!----------Footer----------->
+
+    <section class="footer">
+        <h4>Also Follow us on</h4>
+        <div class="icon">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+
+
+        </div>
+        <p>Made with 🧡 by MOODY-FOODY TEAM...</p>
+    </section>
+
+
+
+
+
+
+
+       <script>
+            window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle('sticky',window.scrollY > 0)
+            }); 
+
+   
+            
+       </script>
+
+       <script>
+           var menu= document.getElementById("menu");
+            function showmenu(){
+                menu.style.right = "0";
+            }
+            function hidemenu(){
+                menu.style.right = "-200px"
+            }
+       </script>
+</body>
+</html>
